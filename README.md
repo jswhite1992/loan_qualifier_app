@@ -48,6 +48,8 @@ After you launch your first question should be this:
 
 This was an effort made possible by the teachings of the wonderful instructor Firas, along with contributions by James White.
 
+ChatGPT was utilized to review the work of the save_csv function in the fileio.py program.  It made small tweaks to the first line of the function.
+
 ---
 
 ## License
