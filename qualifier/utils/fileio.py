@@ -31,6 +31,8 @@ def load_csv(csvpath):
     return data
 
 def save_csv(qualifying_loans, output_path):
+    """Saves the csv file in user specified location.
+    """
     with open(output_path, "w", newline="") as csvfile:
         csvwriter = csv.writer(csvfile)
         csvwriter.writerow(["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"])
