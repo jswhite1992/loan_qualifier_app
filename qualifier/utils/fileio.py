@@ -7,6 +7,7 @@ This contains a helper function for loading and saving CSV files.
 import csv
 
 
+
 def load_csv(csvpath):
     """Reads the CSV file from path provided.
 
@@ -28,3 +29,10 @@ def load_csv(csvpath):
         for row in csvreader:
             data.append(row)
     return data
+
+def save_csv(qualifying_loans, output_path):
+    with open(output_path, "w", newline="") as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(["Lender", "Max Loan Amount", "Max LTV", "Max DTI", "Min Credit Score", "Interest Rate"])
+        for row in qualifying_loans:
+            csvwriter.writerow(row)
