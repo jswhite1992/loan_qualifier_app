@@ -1,35 +1,55 @@
 # Loan Qualifier App
 
-
-
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This is a loan qualifier app that allows the user to input their financial information and recieve a list of loans that they are qualified for.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+The technologies used to make this project possible were importing the sys, fire, csv, and questionary libraries.  This can be ran through both VS Code and Git Bash on Windows 11 or 10.
+
+This program also uses Python 3.7 or above.
+
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
+
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Make sure to install fire & questionary before running:
+
+```Git Bash/VS Code Terminal
+pip install fire
+
+pip install questionary
+ 
+```
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the program you'll need to run the follow command in your terminal:
+
+```
+python app.py
+
+```
+
+After you launch your first question should be this:
+
+![Loan Qualifier Prompts](First_Question_After_Launch.png)
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+This was an effort made possible by the teachings of the wonderful instructor Firas, along with contributions by James White.
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+You may use this source code as you need to.

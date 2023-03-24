@@ -1,0 +1,15 @@
+    1  C:/Users/jswhi/anaconda3/Scripts/activate
+    2  conda activate base
+    3  exit
+    4  source C:/Users/jswhi/anaconda3/Scripts/activate base
+    5  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+    6  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+    7  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+    8  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+    9  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+   10  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+   11  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+   12  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+   13  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+   14  C:/Users/jswhi/anaconda3/python.exe c:/Users/jswhi/FinTech/loan_qualifier_app/app.py
+   15  history 50 > terminal_history.txt
