@@ -110,7 +110,7 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     if not qualifying_loans:
-        print("Sorry, no qualifying loans available.")
+        print("No loans available.")
         return
 
     output_path = questionary.text("Enter the output file path for the CSV file:").ask()
